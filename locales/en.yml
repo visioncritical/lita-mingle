@@ -1,0 +1,24 @@
+en:
+  lita:
+    handlers:
+      mingle:
+        card:
+          create:
+            help:
+              syntax: "mingle [PROJECT_ID] [CARD_TYPE] with name [CARD_NAME]"
+              desc: "Creates a mingle card under the specified project"
+            reply: "Card created - %{url}"
+            error: "Card creation failed. Please contact %{administrator}."
+          update:
+            help:
+              syntax: "mingle [PROJECT_ID] [CARD_NUM] [DESCRIPTION]"
+              desc: "Updates the body of a specified mingle card"
+            reply: "Card updated - %{url}"
+            error: "Card update failed. Please contact %{administrator}."
+        project:
+          list:
+            help:
+              syntax: "mingle projects"
+              desc: "Lists all the projects for a mingle server (id, name)"
+            reply: "%{id} -- %{name}"
+            error: "Unable to list projects. Please contact %{administrator}."
