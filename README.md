@@ -1,6 +1,6 @@
 # lita-mingle
 
-[![Build Status](https://travis-ci.org/Ginja/lita-mingle.png?branch=master)](https://travis-ci.org/Ginja/lita-mingle)
+[![Build Status](https://travis-ci.org/visioncritical/lita-mingle.png?branch=master)](https://travis-ci.org/visioncritical/lita-mingle)
 
 A Lita Plugin for creating/updating cards in Mingle.
 
