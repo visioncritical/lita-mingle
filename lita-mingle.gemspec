@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = 'lita-mingle'
-  spec.version       = '0.1.0'
+  spec.version       = '1.0.0'
   spec.authors       = ['Riley Shott']
   spec.email         = %w(riley.shott@visioncritical.com)
   spec.description   = 'A Lita Plugin for creating/updating cards in Mingle'
