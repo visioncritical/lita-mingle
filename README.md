@@ -25,9 +25,9 @@ This plugin comes with 4 configurations options:
 ### Example
 
 ```ruby
-  config.handlers.mingle.server = 'https://your.mingle.server'
-  config.handlers.mingle.user = 'hermes.conrad'
-  config.handlers.mingle.hmac_token = 'HMACTOKEN'
+config.handlers.mingle.server = 'https://your.mingle.server'
+config.handlers.mingle.user = 'hermes.conrad'
+config.handlers.mingle.hmac_token = 'HMACTOKEN'
 ```
 
 ### Optional
@@ -41,11 +41,11 @@ Defaults to: 'your Mingle administrator'.
 ### Example
 
 ```ruby
-  config.handlers.mingle.administrator = '#some_channel'
-  # OR
-  config.handlers.mingle.administrator = '@some_group'
-  # OR
-  config.handlers.mingle.administrator = 'planetexpress@domain.local'
+config.handlers.mingle.administrator = '#some_channel'
+# OR
+config.handlers.mingle.administrator = '@some_group'
+# OR
+config.handlers.mingle.administrator = 'planetexpress@domain.local'
 ```
 
 ## Usage
