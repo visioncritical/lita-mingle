@@ -3,8 +3,8 @@ require_relative 'patches/mingleapi'
 module MingleHelpers
   module API
     class Client < MingleAPI
-      MingleAPI::Http.include MingleHelpers::Patches::HTTPPut
-      MingleAPI.include MingleHelpers::Patches::UpdateCard
+      MingleAPI::Http.send(:include, MingleHelpers::Patches::HTTPPut)
+      MingleAPI.send(:include, MingleHelpers::Patches::UpdateCard)
 
       attr_reader :server, :connection
 
